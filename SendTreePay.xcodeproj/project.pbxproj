@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		01E0BDB87C561158908B200F /* Pods_SendTreePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C2715753E0AD6E32FF79A /* Pods_SendTreePayTests.framework */; };
 		493A568B2480DB9E005983E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568A2480DB9E005983E1 /* AppDelegate.swift */; };
 		493A568D2480DB9E005983E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568C2480DB9E005983E1 /* SceneDelegate.swift */; };
 		493A568F2480DB9E005983E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568E2480DB9E005983E1 /* ViewController.swift */; };
-		493A56922480DB9E005983E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493A56902480DB9E005983E1 /* Main.storyboard */; };
 		493A56942480DBA1005983E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493A56932480DBA1005983E1 /* Assets.xcassets */; };
 		493A56972480DBA1005983E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493A56952480DBA1005983E1 /* LaunchScreen.storyboard */; };
 		493A56A22480DBA1005983E1 /* SendTreePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56A12480DBA1005983E1 /* SendTreePayTests.swift */; };
+		BFE1BD24B401ED52152CDC88 /* Pods_SendTreePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E24DD785165BAFBE3F18D98 /* Pods_SendTreePay.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +28,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E24DD785165BAFBE3F18D98 /* Pods_SendTreePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendTreePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		493A56872480DB9E005983E1 /* SendTreePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendTreePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493A568A2480DB9E005983E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		493A568C2480DB9E005983E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		493A568E2480DB9E005983E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		493A56912480DB9E005983E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		493A56932480DBA1005983E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493A56962480DBA1005983E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		493A56982480DBA1005983E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		493A569D2480DBA1005983E1 /* SendTreePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendTreePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493A56A12480DBA1005983E1 /* SendTreePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTreePayTests.swift; sourceTree = "<group>"; };
 		493A56A32480DBA1005983E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57C14EE0B546D3CE4DF57B04 /* Pods-SendTreePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePayTests.release.xcconfig"; path = "Target Support Files/Pods-SendTreePayTests/Pods-SendTreePayTests.release.xcconfig"; sourceTree = "<group>"; };
+		7DEEB37D560183658B33ECBB /* Pods-SendTreePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePay.debug.xcconfig"; path = "Target Support Files/Pods-SendTreePay/Pods-SendTreePay.debug.xcconfig"; sourceTree = "<group>"; };
+		837C2715753E0AD6E32FF79A /* Pods_SendTreePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendTreePayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1D1ADFE1A6A817B39C3A799 /* Pods-SendTreePayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePayTests.debug.xcconfig"; path = "Target Support Files/Pods-SendTreePayTests/Pods-SendTreePayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E09E1AC7431F547542CEF882 /* Pods-SendTreePay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePay.release.xcconfig"; path = "Target Support Files/Pods-SendTreePay/Pods-SendTreePay.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE1BD24B401ED52152CDC88 /* Pods_SendTreePay.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E0BDB87C561158908B200F /* Pods_SendTreePayTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +72,8 @@
 				493A56892480DB9E005983E1 /* SendTreePay */,
 				493A56A02480DBA1005983E1 /* SendTreePayTests */,
 				493A56882480DB9E005983E1 /* Products */,
+				A86DB31955BC02446863051A /* Pods */,
+				CD40EEA18E7525D1356F8DE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,7 +92,6 @@
 				493A568A2480DB9E005983E1 /* AppDelegate.swift */,
 				493A568C2480DB9E005983E1 /* SceneDelegate.swift */,
 				493A568E2480DB9E005983E1 /* ViewController.swift */,
-				493A56902480DB9E005983E1 /* Main.storyboard */,
 				493A56932480DBA1005983E1 /* Assets.xcassets */,
 				493A56952480DBA1005983E1 /* LaunchScreen.storyboard */,
 				493A56982480DBA1005983E1 /* Info.plist */,
@@ -99,6 +108,27 @@
 			path = SendTreePayTests;
 			sourceTree = "<group>";
 		};
+		A86DB31955BC02446863051A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7DEEB37D560183658B33ECBB /* Pods-SendTreePay.debug.xcconfig */,
+				E09E1AC7431F547542CEF882 /* Pods-SendTreePay.release.xcconfig */,
+				C1D1ADFE1A6A817B39C3A799 /* Pods-SendTreePayTests.debug.xcconfig */,
+				57C14EE0B546D3CE4DF57B04 /* Pods-SendTreePayTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CD40EEA18E7525D1356F8DE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E24DD785165BAFBE3F18D98 /* Pods_SendTreePay.framework */,
+				837C2715753E0AD6E32FF79A /* Pods_SendTreePayTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +136,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493A56A62480DBA1005983E1 /* Build configuration list for PBXNativeTarget "SendTreePay" */;
 			buildPhases = (
+				2B4C89649EF8E66B8C98A8F2 /* [CP] Check Pods Manifest.lock */,
 				493A56832480DB9E005983E1 /* Sources */,
 				493A56842480DB9E005983E1 /* Frameworks */,
 				493A56852480DB9E005983E1 /* Resources */,
@@ -123,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 493A56A92480DBA1005983E1 /* Build configuration list for PBXNativeTarget "SendTreePayTests" */;
 			buildPhases = (
+				6B43CCF46B4091085C339A37 /* [CP] Check Pods Manifest.lock */,
 				493A56992480DBA1005983E1 /* Sources */,
 				493A569A2480DBA1005983E1 /* Frameworks */,
 				493A569B2480DBA1005983E1 /* Resources */,
@@ -182,7 +214,6 @@
 			files = (
 				493A56972480DBA1005983E1 /* LaunchScreen.storyboard in Resources */,
 				493A56942480DBA1005983E1 /* Assets.xcassets in Resources */,
-				493A56922480DB9E005983E1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +225,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B4C89649EF8E66B8C98A8F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendTreePay-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B43CCF46B4091085C339A37 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SendTreePayTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		493A56832480DB9E005983E1 /* Sources */ = {
@@ -225,14 +303,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		493A56902480DB9E005983E1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				493A56912480DB9E005983E1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		493A56952480DBA1005983E1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -360,6 +430,7 @@
 		};
 		493A56A72480DBA1005983E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DEEB37D560183658B33ECBB /* Pods-SendTreePay.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -378,6 +449,7 @@
 		};
 		493A56A82480DBA1005983E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09E1AC7431F547542CEF882 /* Pods-SendTreePay.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -396,6 +468,7 @@
 		};
 		493A56AA2480DBA1005983E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D1ADFE1A6A817B39C3A799 /* Pods-SendTreePayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +491,7 @@
 		};
 		493A56AB2480DBA1005983E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57C14EE0B546D3CE4DF57B04 /* Pods-SendTreePayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
