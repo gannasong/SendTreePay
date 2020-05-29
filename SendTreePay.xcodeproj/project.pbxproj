@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		493A568B2480DB9E005983E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568A2480DB9E005983E1 /* AppDelegate.swift */; };
+		493A568D2480DB9E005983E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568C2480DB9E005983E1 /* SceneDelegate.swift */; };
+		493A568F2480DB9E005983E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568E2480DB9E005983E1 /* ViewController.swift */; };
+		493A56922480DB9E005983E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493A56902480DB9E005983E1 /* Main.storyboard */; };
+		493A56942480DBA1005983E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493A56932480DBA1005983E1 /* Assets.xcassets */; };
+		493A56972480DBA1005983E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493A56952480DBA1005983E1 /* LaunchScreen.storyboard */; };
+		493A56A22480DBA1005983E1 /* SendTreePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56A12480DBA1005983E1 /* SendTreePayTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		493A569E2480DBA1005983E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 493A567F2480DB9E005983E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 493A56862480DB9E005983E1;
+			remoteInfo = SendTreePay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		493A56872480DB9E005983E1 /* SendTreePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendTreePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		493A568A2480DB9E005983E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		493A568C2480DB9E005983E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		493A568E2480DB9E005983E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		493A56912480DB9E005983E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		493A56932480DBA1005983E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		493A56962480DBA1005983E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		493A56982480DBA1005983E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493A569D2480DBA1005983E1 /* SendTreePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendTreePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		493A56A12480DBA1005983E1 /* SendTreePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTreePayTests.swift; sourceTree = "<group>"; };
+		493A56A32480DBA1005983E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		493A56842480DB9E005983E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493A569A2480DBA1005983E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		493A567E2480DB9E005983E1 = {
+			isa = PBXGroup;
+			children = (
+				493A56892480DB9E005983E1 /* SendTreePay */,
+				493A56A02480DBA1005983E1 /* SendTreePayTests */,
+				493A56882480DB9E005983E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		493A56882480DB9E005983E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				493A56872480DB9E005983E1 /* SendTreePay.app */,
+				493A569D2480DBA1005983E1 /* SendTreePayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		493A56892480DB9E005983E1 /* SendTreePay */ = {
+			isa = PBXGroup;
+			children = (
+				493A568A2480DB9E005983E1 /* AppDelegate.swift */,
+				493A568C2480DB9E005983E1 /* SceneDelegate.swift */,
+				493A568E2480DB9E005983E1 /* ViewController.swift */,
+				493A56902480DB9E005983E1 /* Main.storyboard */,
+				493A56932480DBA1005983E1 /* Assets.xcassets */,
+				493A56952480DBA1005983E1 /* LaunchScreen.storyboard */,
+				493A56982480DBA1005983E1 /* Info.plist */,
+			);
+			path = SendTreePay;
+			sourceTree = "<group>";
+		};
+		493A56A02480DBA1005983E1 /* SendTreePayTests */ = {
+			isa = PBXGroup;
+			children = (
+				493A56A12480DBA1005983E1 /* SendTreePayTests.swift */,
+				493A56A32480DBA1005983E1 /* Info.plist */,
+			);
+			path = SendTreePayTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		493A56862480DB9E005983E1 /* SendTreePay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493A56A62480DBA1005983E1 /* Build configuration list for PBXNativeTarget "SendTreePay" */;
+			buildPhases = (
+				493A56832480DB9E005983E1 /* Sources */,
+				493A56842480DB9E005983E1 /* Frameworks */,
+				493A56852480DB9E005983E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SendTreePay;
+			productName = SendTreePay;
+			productReference = 493A56872480DB9E005983E1 /* SendTreePay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		493A569C2480DBA1005983E1 /* SendTreePayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 493A56A92480DBA1005983E1 /* Build configuration list for PBXNativeTarget "SendTreePayTests" */;
+			buildPhases = (
+				493A56992480DBA1005983E1 /* Sources */,
+				493A569A2480DBA1005983E1 /* Frameworks */,
+				493A569B2480DBA1005983E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				493A569F2480DBA1005983E1 /* PBXTargetDependency */,
+			);
+			name = SendTreePayTests;
+			productName = SendTreePayTests;
+			productReference = 493A569D2480DBA1005983E1 /* SendTreePayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		493A567F2480DB9E005983E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "SUNG HAO LIN";
+				TargetAttributes = {
+					493A56862480DB9E005983E1 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					493A569C2480DBA1005983E1 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = 493A56862480DB9E005983E1;
+					};
+				};
+			};
+			buildConfigurationList = 493A56822480DB9E005983E1 /* Build configuration list for PBXProject "SendTreePay" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 493A567E2480DB9E005983E1;
+			productRefGroup = 493A56882480DB9E005983E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				493A56862480DB9E005983E1 /* SendTreePay */,
+				493A569C2480DBA1005983E1 /* SendTreePayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		493A56852480DB9E005983E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493A56972480DBA1005983E1 /* LaunchScreen.storyboard in Resources */,
+				493A56942480DBA1005983E1 /* Assets.xcassets in Resources */,
+				493A56922480DB9E005983E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493A569B2480DBA1005983E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		493A56832480DB9E005983E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493A568F2480DB9E005983E1 /* ViewController.swift in Sources */,
+				493A568B2480DB9E005983E1 /* AppDelegate.swift in Sources */,
+				493A568D2480DB9E005983E1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493A56992480DBA1005983E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				493A56A22480DBA1005983E1 /* SendTreePayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		493A569F2480DBA1005983E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 493A56862480DB9E005983E1 /* SendTreePay */;
+			targetProxy = 493A569E2480DBA1005983E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		493A56902480DB9E005983E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				493A56912480DB9E005983E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		493A56952480DBA1005983E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				493A56962480DBA1005983E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		493A56A42480DBA1005983E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		493A56A52480DBA1005983E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		493A56A72480DBA1005983E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W4XUH8LUQ;
+				INFOPLIST_FILE = SendTreePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gannasong.SendTreePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		493A56A82480DBA1005983E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W4XUH8LUQ;
+				INFOPLIST_FILE = SendTreePay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gannasong.SendTreePay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		493A56AA2480DBA1005983E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W4XUH8LUQ;
+				INFOPLIST_FILE = SendTreePayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gannasong.SendTreePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendTreePay.app/SendTreePay";
+			};
+			name = Debug;
+		};
+		493A56AB2480DBA1005983E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2W4XUH8LUQ;
+				INFOPLIST_FILE = SendTreePayTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.gannasong.SendTreePayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SendTreePay.app/SendTreePay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		493A56822480DB9E005983E1 /* Build configuration list for PBXProject "SendTreePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493A56A42480DBA1005983E1 /* Debug */,
+				493A56A52480DBA1005983E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493A56A62480DBA1005983E1 /* Build configuration list for PBXNativeTarget "SendTreePay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493A56A72480DBA1005983E1 /* Debug */,
+				493A56A82480DBA1005983E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		493A56A92480DBA1005983E1 /* Build configuration list for PBXNativeTarget "SendTreePayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				493A56AA2480DBA1005983E1 /* Debug */,
+				493A56AB2480DBA1005983E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 493A567F2480DB9E005983E1 /* Project object */;
+}
