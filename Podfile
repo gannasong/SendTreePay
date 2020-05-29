@@ -1,11 +1,14 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
+platform :ios, '13.0'
+inhibit_all_warnings!
+use_frameworks!
+install! 'cocoapods', generate_multiple_pod_projects: true
 
 target 'SendTreePay' do
-  # Comment the next line if you don't want to use dynamic frameworks
-  use_frameworks!
-
-  # Pods for SendTreePay
+  pod 'RxSwift', '~> 5'
+  pod 'RxCocoa', '~> 5'
+  pod 'RxSwiftExt'
+  pod 'NSObject+Rx'
+  pod 'Moya/RxSwift', '~> 14.0'
 
   target 'SendTreePayTests' do
     inherit! :search_paths

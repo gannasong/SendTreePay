@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		493A56942480DBA1005983E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493A56932480DBA1005983E1 /* Assets.xcassets */; };
 		493A56972480DBA1005983E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493A56952480DBA1005983E1 /* LaunchScreen.storyboard */; };
 		493A56A22480DBA1005983E1 /* SendTreePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56A12480DBA1005983E1 /* SendTreePayTests.swift */; };
+		493A56D02480E2C6005983E1 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56CF2480E2C6005983E1 /* APIManager.swift */; };
+		493A56D22480EA5C005983E1 /* APIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56D12480EA5C005983E1 /* APIType.swift */; };
+		493A56D42480EFC7005983E1 /* APIManager+Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56D32480EFC7005983E1 /* APIManager+Mask.swift */; };
+		493A56D92480F29D005983E1 /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56D82480F29D005983E1 /* Pharmacy.swift */; };
 		BFE1BD24B401ED52152CDC88 /* Pods_SendTreePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E24DD785165BAFBE3F18D98 /* Pods_SendTreePay.framework */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +43,10 @@
 		493A569D2480DBA1005983E1 /* SendTreePayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SendTreePayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		493A56A12480DBA1005983E1 /* SendTreePayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendTreePayTests.swift; sourceTree = "<group>"; };
 		493A56A32480DBA1005983E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		493A56CF2480E2C6005983E1 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		493A56D12480EA5C005983E1 /* APIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIType.swift; sourceTree = "<group>"; };
+		493A56D32480EFC7005983E1 /* APIManager+Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIManager+Mask.swift"; sourceTree = "<group>"; };
+		493A56D82480F29D005983E1 /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
 		57C14EE0B546D3CE4DF57B04 /* Pods-SendTreePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePayTests.release.xcconfig"; path = "Target Support Files/Pods-SendTreePayTests/Pods-SendTreePayTests.release.xcconfig"; sourceTree = "<group>"; };
 		7DEEB37D560183658B33ECBB /* Pods-SendTreePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePay.debug.xcconfig"; path = "Target Support Files/Pods-SendTreePay/Pods-SendTreePay.debug.xcconfig"; sourceTree = "<group>"; };
 		837C2715753E0AD6E32FF79A /* Pods_SendTreePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendTreePayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -89,12 +97,14 @@
 		493A56892480DB9E005983E1 /* SendTreePay */ = {
 			isa = PBXGroup;
 			children = (
+				493A56D72480F21A005983E1 /* Model */,
+				493A56FB24810F9C005983E1 /* ViewControllers */,
+				493A56CB2480E273005983E1 /* Networking */,
+				493A56CA2480E152005983E1 /* Supporting Files */,
 				493A568A2480DB9E005983E1 /* AppDelegate.swift */,
 				493A568C2480DB9E005983E1 /* SceneDelegate.swift */,
-				493A568E2480DB9E005983E1 /* ViewController.swift */,
 				493A56932480DBA1005983E1 /* Assets.xcassets */,
 				493A56952480DBA1005983E1 /* LaunchScreen.storyboard */,
-				493A56982480DBA1005983E1 /* Info.plist */,
 			);
 			path = SendTreePay;
 			sourceTree = "<group>";
@@ -108,6 +118,72 @@
 			path = SendTreePayTests;
 			sourceTree = "<group>";
 		};
+		493A56CA2480E152005983E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				493A56DC24810BF0005983E1 /* Plists */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		493A56CB2480E273005983E1 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				493A56CE2480E2A5005983E1 /* Protocols */,
+				493A56CD2480E29B005983E1 /* Manager */,
+				493A56CC2480E28C005983E1 /* API */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		493A56CC2480E28C005983E1 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				493A56D32480EFC7005983E1 /* APIManager+Mask.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		493A56CD2480E29B005983E1 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				493A56CF2480E2C6005983E1 /* APIManager.swift */,
+				493A56D12480EA5C005983E1 /* APIType.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		493A56CE2480E2A5005983E1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		493A56D72480F21A005983E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				493A56D82480F29D005983E1 /* Pharmacy.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		493A56DC24810BF0005983E1 /* Plists */ = {
+			isa = PBXGroup;
+			children = (
+				493A56982480DBA1005983E1 /* Info.plist */,
+			);
+			path = Plists;
+			sourceTree = "<group>";
+		};
+		493A56FB24810F9C005983E1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				493A568E2480DB9E005983E1 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		A86DB31955BC02446863051A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,7 +192,6 @@
 				C1D1ADFE1A6A817B39C3A799 /* Pods-SendTreePayTests.debug.xcconfig */,
 				57C14EE0B546D3CE4DF57B04 /* Pods-SendTreePayTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -140,6 +215,7 @@
 				493A56832480DB9E005983E1 /* Sources */,
 				493A56842480DB9E005983E1 /* Frameworks */,
 				493A56852480DB9E005983E1 /* Resources */,
+				D2DCB93BFB9889DF4EE065DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -271,6 +347,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D2DCB93BFB9889DF4EE065DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendTreePay/Pods-SendTreePay-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendTreePay/Pods-SendTreePay-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SendTreePay/Pods-SendTreePay-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -278,9 +371,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493A56D42480EFC7005983E1 /* APIManager+Mask.swift in Sources */,
+				493A56D92480F29D005983E1 /* Pharmacy.swift in Sources */,
+				493A56D02480E2C6005983E1 /* APIManager.swift in Sources */,
 				493A568F2480DB9E005983E1 /* ViewController.swift in Sources */,
 				493A568B2480DB9E005983E1 /* AppDelegate.swift in Sources */,
 				493A568D2480DB9E005983E1 /* SceneDelegate.swift in Sources */,
+				493A56D22480EA5C005983E1 /* APIType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +532,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W4XUH8LUQ;
-				INFOPLIST_FILE = SendTreePay/Info.plist;
+				INFOPLIST_FILE = "SendTreePay/Supporting Files/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,7 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2W4XUH8LUQ;
-				INFOPLIST_FILE = SendTreePay/Info.plist;
+				INFOPLIST_FILE = "SendTreePay/Supporting Files/Plists/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
