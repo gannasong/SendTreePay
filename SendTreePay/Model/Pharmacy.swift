@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Pharmacy: Codable {
+struct Pharmacy: Codable, Equatable {
   let id: String?
   let name: String?
   let phone: String?
@@ -75,44 +75,3 @@ struct Pharmacy: Codable {
     coordinates = try geometry.decodeIfPresent([Double].self, forKey: .coordinates)
   }
 }
-
-//struct Properties: Codable {
-//  let id: String?
-//  let name: String?
-//  let phone: String?
-//  let address: String?
-//  let maskAdult: Int?
-//  let maskChild: Int?
-//  let updated: String?
-//  let available: String?
-//  let note: String?
-//  let customNote: String?
-//  let website: String?
-//  let county: String?
-//  let town: String?
-//  let cunli: String?
-//  let servicePeriods: String?
-//
-//  enum CodingKeys: String, CodingKey {
-//    case id
-//    case name
-//    case phone
-//    case address
-//    case maskAdult = "mask_adult"
-//    case maskChild = "mask_child"
-//    case updated
-//    case available
-//    case note
-//    case customNote = "custom_note"
-//    case website
-//    case county
-//    case town
-//    case cunli
-//    case servicePeriods = "service_periods"
-//  }
-//}
-//
-//struct Geometry: Codable {
-//  let type: String?
-//  let coordinates: [Double]?
-//}

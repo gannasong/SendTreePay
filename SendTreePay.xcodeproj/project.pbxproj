@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		01E0BDB87C561158908B200F /* Pods_SendTreePayTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 837C2715753E0AD6E32FF79A /* Pods_SendTreePayTests.framework */; };
+		491FE7112487E4F00063852A /* ViewModelType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491FE7102487E4F00063852A /* ViewModelType.swift */; };
+		491FE7132487E5D80063852A /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491FE7122487E5D80063852A /* CountryViewModel.swift */; };
+		491FE8F2248804B00063852A /* RxSwift+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491FE8F1248804B00063852A /* RxSwift+Operators.swift */; };
+		491FE8F4248806E80063852A /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491FE8F3248806E70063852A /* County.swift */; };
 		493A568B2480DB9E005983E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568A2480DB9E005983E1 /* AppDelegate.swift */; };
 		493A568D2480DB9E005983E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568C2480DB9E005983E1 /* SceneDelegate.swift */; };
 		493A568F2480DB9E005983E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568E2480DB9E005983E1 /* ViewController.swift */; };
@@ -33,6 +37,10 @@
 
 /* Begin PBXFileReference section */
 		1E24DD785165BAFBE3F18D98 /* Pods_SendTreePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendTreePay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		491FE7102487E4F00063852A /* ViewModelType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelType.swift; sourceTree = "<group>"; };
+		491FE7122487E5D80063852A /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
+		491FE8F1248804B00063852A /* RxSwift+Operators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxSwift+Operators.swift"; sourceTree = "<group>"; };
+		491FE8F3248806E70063852A /* County.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = County.swift; sourceTree = "<group>"; };
 		493A56872480DB9E005983E1 /* SendTreePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendTreePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493A568A2480DB9E005983E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		493A568C2480DB9E005983E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +82,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		491FE70F2487E4CE0063852A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				491FE7102487E4F00063852A /* ViewModelType.swift */,
+				491FE7122487E5D80063852A /* CountryViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		491FE8F0248804780063852A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				491FE8F1248804B00063852A /* RxSwift+Operators.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		493A567E2480DB9E005983E1 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +122,8 @@
 		493A56892480DB9E005983E1 /* SendTreePay */ = {
 			isa = PBXGroup;
 			children = (
+				491FE8F0248804780063852A /* Extensions */,
+				491FE70F2487E4CE0063852A /* ViewModel */,
 				493A56D72480F21A005983E1 /* Model */,
 				493A56FB24810F9C005983E1 /* ViewControllers */,
 				493A56CB2480E273005983E1 /* Networking */,
@@ -129,7 +156,6 @@
 		493A56CB2480E273005983E1 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				493A56CE2480E2A5005983E1 /* Protocols */,
 				493A56CD2480E29B005983E1 /* Manager */,
 				493A56CC2480E28C005983E1 /* API */,
 			);
@@ -153,17 +179,11 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
-		493A56CE2480E2A5005983E1 /* Protocols */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Protocols;
-			sourceTree = "<group>";
-		};
 		493A56D72480F21A005983E1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				493A56D82480F29D005983E1 /* Pharmacy.swift */,
+				491FE8F3248806E70063852A /* County.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -372,10 +392,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				493A56D42480EFC7005983E1 /* APIManager+Mask.swift in Sources */,
+				491FE8F4248806E80063852A /* County.swift in Sources */,
 				493A56D92480F29D005983E1 /* Pharmacy.swift in Sources */,
 				493A56D02480E2C6005983E1 /* APIManager.swift in Sources */,
+				491FE7132487E5D80063852A /* CountryViewModel.swift in Sources */,
 				493A568F2480DB9E005983E1 /* ViewController.swift in Sources */,
+				491FE7112487E4F00063852A /* ViewModelType.swift in Sources */,
 				493A568B2480DB9E005983E1 /* AppDelegate.swift in Sources */,
+				491FE8F2248804B00063852A /* RxSwift+Operators.swift in Sources */,
 				493A568D2480DB9E005983E1 /* SceneDelegate.swift in Sources */,
 				493A56D22480EA5C005983E1 /* APIType.swift in Sources */,
 			);

@@ -9,6 +9,7 @@ target 'SendTreePay' do
   pod 'RxSwiftExt'
   pod 'NSObject+Rx'
   pod 'Moya/RxSwift', '~> 14.0'
+  pod 'SnapKit', '~> 5.0.0'
 
   target 'SendTreePayTests' do
     inherit! :search_paths

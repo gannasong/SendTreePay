@@ -62,9 +62,6 @@ extension APIType: TargetType {
   public var headers: [String : String]? {
     return [
       "Content-Type": "application/json",
-//      "User-Agent": userAgent,
-//      "Accept-Language": acceptLanguages,
-//      "X-Instance-ID": instanceID,
     ]
   }
 }

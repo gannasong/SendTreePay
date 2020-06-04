@@ -11,18 +11,25 @@ import Moya
 import RxSwift
 
 extension APIManager {
-  public func fetchMaskData() {
-    _ = provider.rx.request(.fetchMaskData)
+//  public func fetchMaskData() {
+//    _ = provider.rx.request(.fetchMaskData)
+//      .asObservable()
+//      .filterSuccessfulStatusCodes()
+//      .map([Pharmacy].self, atKeyPath: Keys.features.rawValue)
+//      .subscribe(onNext: { (pharmacies) in
+//        print(">>>>> count: ", pharmacies.count)
+//        pharmacies.forEach { (pharmacy) in
+//          print(">>>>> name: ", pharmacy.name)
+//        }
+//      }, onError: { (error) in
+//        print(">>>>> error: ", error.localizedDescription)
+//      })
+//  }
+
+  func fetchMaskData() -> Observable<[Pharmacy]> {
+    return provider.rx.request(.fetchMaskData)
       .asObservable()
       .filterSuccessfulStatusCodes()
       .map([Pharmacy].self, atKeyPath: Keys.features.rawValue)
-      .subscribe(onNext: { (pharmacies) in
-        print(">>>>> count: ", pharmacies.count)
-        pharmacies.forEach { (pharmacy) in
-          print(">>>>> name: ", pharmacy.name)
-        }
-      }, onError: { (error) in
-        print(">>>>> error: ", error.localizedDescription)
-      })
   }
 }
