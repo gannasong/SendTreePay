@@ -14,7 +14,7 @@
 		491FE8F4248806E80063852A /* County.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491FE8F3248806E70063852A /* County.swift */; };
 		493A568B2480DB9E005983E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568A2480DB9E005983E1 /* AppDelegate.swift */; };
 		493A568D2480DB9E005983E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568C2480DB9E005983E1 /* SceneDelegate.swift */; };
-		493A568F2480DB9E005983E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568E2480DB9E005983E1 /* ViewController.swift */; };
+		493A568F2480DB9E005983E1 /* RXCountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A568E2480DB9E005983E1 /* RXCountryController.swift */; };
 		493A56942480DBA1005983E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 493A56932480DBA1005983E1 /* Assets.xcassets */; };
 		493A56972480DBA1005983E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 493A56952480DBA1005983E1 /* LaunchScreen.storyboard */; };
 		493A56A22480DBA1005983E1 /* SendTreePayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56A12480DBA1005983E1 /* SendTreePayTests.swift */; };
@@ -22,6 +22,7 @@
 		493A56D22480EA5C005983E1 /* APIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56D12480EA5C005983E1 /* APIType.swift */; };
 		493A56D42480EFC7005983E1 /* APIManager+Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56D32480EFC7005983E1 /* APIManager+Mask.swift */; };
 		493A56D92480F29D005983E1 /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56D82480F29D005983E1 /* Pharmacy.swift */; };
+		49472A3E24894492008AB823 /* CountySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49472A3D24894492008AB823 /* CountySection.swift */; };
 		BFE1BD24B401ED52152CDC88 /* Pods_SendTreePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E24DD785165BAFBE3F18D98 /* Pods_SendTreePay.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,7 +45,7 @@
 		493A56872480DB9E005983E1 /* SendTreePay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SendTreePay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		493A568A2480DB9E005983E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		493A568C2480DB9E005983E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		493A568E2480DB9E005983E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		493A568E2480DB9E005983E1 /* RXCountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXCountryController.swift; sourceTree = "<group>"; };
 		493A56932480DBA1005983E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		493A56962480DBA1005983E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		493A56982480DBA1005983E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -55,6 +56,7 @@
 		493A56D12480EA5C005983E1 /* APIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIType.swift; sourceTree = "<group>"; };
 		493A56D32480EFC7005983E1 /* APIManager+Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIManager+Mask.swift"; sourceTree = "<group>"; };
 		493A56D82480F29D005983E1 /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
+		49472A3D24894492008AB823 /* CountySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountySection.swift; sourceTree = "<group>"; };
 		57C14EE0B546D3CE4DF57B04 /* Pods-SendTreePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePayTests.release.xcconfig"; path = "Target Support Files/Pods-SendTreePayTests/Pods-SendTreePayTests.release.xcconfig"; sourceTree = "<group>"; };
 		7DEEB37D560183658B33ECBB /* Pods-SendTreePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePay.debug.xcconfig"; path = "Target Support Files/Pods-SendTreePay/Pods-SendTreePay.debug.xcconfig"; sourceTree = "<group>"; };
 		837C2715753E0AD6E32FF79A /* Pods_SendTreePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendTreePayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -184,6 +186,7 @@
 			children = (
 				493A56D82480F29D005983E1 /* Pharmacy.swift */,
 				491FE8F3248806E70063852A /* County.swift */,
+				49472A3D24894492008AB823 /* CountySection.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -199,7 +202,7 @@
 		493A56FB24810F9C005983E1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				493A568E2480DB9E005983E1 /* ViewController.swift */,
+				493A568E2480DB9E005983E1 /* RXCountryController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -396,7 +399,8 @@
 				493A56D92480F29D005983E1 /* Pharmacy.swift in Sources */,
 				493A56D02480E2C6005983E1 /* APIManager.swift in Sources */,
 				491FE7132487E5D80063852A /* CountryViewModel.swift in Sources */,
-				493A568F2480DB9E005983E1 /* ViewController.swift in Sources */,
+				49472A3E24894492008AB823 /* CountySection.swift in Sources */,
+				493A568F2480DB9E005983E1 /* RXCountryController.swift in Sources */,
 				491FE7112487E4F00063852A /* ViewModelType.swift in Sources */,
 				493A568B2480DB9E005983E1 /* AppDelegate.swift in Sources */,
 				491FE8F2248804B00063852A /* RxSwift+Operators.swift in Sources */,

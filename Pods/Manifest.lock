@@ -1,15 +1,18 @@
 PODS:
   - Alamofire (5.1.0)
+  - Differentiator (4.0.1)
   - Moya/Core (14.0.0):
     - Alamofire (~> 5.0)
   - Moya/RxSwift (14.0.0):
     - Moya/Core
     - RxSwift (~> 5.0)
-  - "NSObject+Rx (5.1.0)":
-    - RxSwift (~> 5.1)
   - RxCocoa (5.1.1):
     - RxRelay (~> 5)
     - RxSwift (~> 5)
+  - RxDataSources (4.0.1):
+    - Differentiator (~> 4.0)
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
   - RxRelay (5.1.1):
     - RxSwift (~> 5)
   - RxSwift (5.1.1)
@@ -25,8 +28,8 @@ PODS:
 
 DEPENDENCIES:
   - Moya/RxSwift (~> 14.0)
-  - "NSObject+Rx"
   - RxCocoa (~> 5)
+  - RxDataSources (~> 4.0)
   - RxSwift (~> 5)
   - RxSwiftExt
   - SnapKit (~> 5.0.0)
@@ -34,9 +37,10 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Differentiator
     - Moya
-    - "NSObject+Rx"
     - RxCocoa
+    - RxDataSources
     - RxRelay
     - RxSwift
     - RxSwiftExt
@@ -44,14 +48,15 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  Differentiator: 886080237d9f87f322641dedbc5be257061b0602
   Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
-  "NSObject+Rx": fa6bbcc1ab1faa06b01466bc09b1e0692bbc5946
   RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxDataSources: efee07fa4de48477eca0a4611e6d11e2da9c1114
   RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
   RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
   RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
   SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
 
-PODFILE CHECKSUM: a7a839707b78bb9baf7ed90e3227246c24b25935
+PODFILE CHECKSUM: 7dbbbb9eca37fcab8e82438ea18c743f8b4b5c05
 
 COCOAPODS: 1.8.4

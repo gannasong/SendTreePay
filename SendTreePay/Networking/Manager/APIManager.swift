@@ -11,12 +11,11 @@ import Moya
 
 final public class APIManager: NSObject {
 
-  public static let shared = APIManager()
-
   internal enum Keys: String {
     case features
     case demo
   }
 
-  let provider = MoyaProvider<APIType>()
+  public static let shared = APIManager()
+  public let provider = MoyaProvider<APIType>()
 }
