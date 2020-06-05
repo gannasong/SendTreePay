@@ -13,7 +13,7 @@ target 'SendTreePay' do
   
   target 'SendTreePayTests' do
     inherit! :search_paths
-    # Pods for testing
+    pod 'RxBlocking', '~> 5'
+    pod 'RxTest', '~> 5'
   end
-
 end

@@ -7,126 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1774A75BE5209968C33D8EA918EDCCE0 /* Pods-SendTreePay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A79316A0D3A301954AF81CE34F7CA490 /* Pods-SendTreePay-dummy.m */; };
-		17A1B4CA7E3D5FE93DB87BA4DAE56496 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		849260758955C6442C08907D1A084869 /* Pods-SendTreePayTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D7296DAEACA43CCCA083D6E97450108A /* Pods-SendTreePayTests-dummy.m */; };
+		145EC43AEA1D1EE4FA08691D803CBB1D /* Pods-SendTreePayTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F85CAD3399CADC1CB4A0268232C725C3 /* Pods-SendTreePayTests-dummy.m */; };
+		1774A75BE5209968C33D8EA918EDCCE0 /* Pods-SendTreePay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA93780465E31AA746A9C7B45AF5EBE /* Pods-SendTreePay-dummy.m */; };
+		6ABEC78123B4974A4F201BE9A197BBD1 /* Pods-SendTreePayTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9089B9114818F7FB80A762E58396C2 /* Pods-SendTreePayTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		900096C5C2CDCFEEA4237BFDECD957A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		AFEFE18AC50A7F4F2602136447201B71 /* Pods-SendTreePay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1D6D1965B878A23F243605485F39874 /* Pods-SendTreePay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF88A101D7E8900E1C1A0A54D0F012CA /* Pods-SendTreePayTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39BADC3C19263B863F42F5EF806CBAFA /* Pods-SendTreePayTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFEFE18AC50A7F4F2602136447201B71 /* Pods-SendTreePay-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2981C4D44844FE7F6B2BE3B064308881 /* Pods-SendTreePay-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9E0BF7C30E8B687D99770F15E3C866 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0BD7E4D1D477D39D312E88C7B8ADAA54 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BBDDD1522EC0ED794F9BA77B55601F6A /* RxDataSources.xcodeproj */;
+			containerPortal = 09FD6D22F580A568239B519E1386E590 /* RxDataSources.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 51A3C6B0D85472E4377BE1104C7E10A6;
 			remoteInfo = RxDataSources;
 		};
 		1AC2B50E050FFB25EB644DF638634109 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DCD792F59DE6A6542A7C62C766D1A15A /* RxCocoa.xcodeproj */;
+			containerPortal = 27B72FB9322DFF0C0588A07A96599C80 /* RxCocoa.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = BC5183FBB16A06C1D86620B00CFE6269;
 			remoteInfo = RxCocoa;
 		};
 		286D4A2A7CD67A6C3D04134C0B9C6551 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = BA56E4C8B691A54698A403802F588E5E /* Alamofire.xcodeproj */;
+			containerPortal = B034877992CFCBE20EDCAF34337DC13D /* Alamofire.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 81B7E9B7CD0CADA087A4BB042FBA92E7;
 			remoteInfo = Alamofire;
 		};
 		31A3C8AEC44A641C7F531FDA0EA66C70 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E33FA793842530F16B168BABA70B2067 /* Differentiator.xcodeproj */;
+			containerPortal = 4252DB2E56FC7DF2B822D38CB6B908DA /* Differentiator.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = F291182B2B4D411554E59174A5380856;
 			remoteInfo = Differentiator;
 		};
-		59F50E332092349DA4917BFBB1F665A7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D792339DDD1D14332FCD7950EE86CAE3;
-			remoteInfo = "Pods-SendTreePay";
-		};
 		8E31EE7B538E6A85FB2D661E1ABAD1A8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 66D1C4C4303406E67070D42074011F9B /* SnapKit.xcodeproj */;
+			containerPortal = 6E004356A03286005A92F577123639B3 /* SnapKit.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 6913FCF4B90C224E55FE5C821AFB90D2;
 			remoteInfo = SnapKit;
 		};
 		A605E8804DE9CB33F4A7A39565D90011 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = DE3A9E53AC657A7498C016706D0F4F78 /* Moya.xcodeproj */;
+			containerPortal = DB2D06937BC14B08D9FF0C53520DC0BA /* Moya.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 42D4D39F3084C8EA060DE1C283323B37;
 			remoteInfo = Moya;
 		};
 		A755B9DC51DAF607D636F071D61C2BD6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EEFFBE8FE0C9BB250051BCC5801269C6 /* RxSwift.xcodeproj */;
+			containerPortal = 3B92531C549B7DD573C21A1CF01884C5 /* RxSwift.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = F0179EE061353B7A322F596E97844774;
 			remoteInfo = RxSwift;
 		};
+		B1382931E5FCC1FA53D8CB64795A5658 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15730AA242D1282A5120949C0A3017C4 /* RxTest.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = B95D5388EFE2065DA1A3C587B1E4C843;
+			remoteInfo = RxTest;
+		};
 		D4A7EB53F31EF3654A566B45223DF25A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9E1C82AB827E69D624A372C741767AB6 /* RxSwiftExt.xcodeproj */;
+			containerPortal = E726645F1903EB096FF39127FA209409 /* RxSwiftExt.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 27EB8A78CD48CBA869F1CD0C2E3E61B8;
 			remoteInfo = RxSwiftExt;
 		};
+		D84DED1D8FC90B0FA80BF35D2D3915A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D792339DDD1D14332FCD7950EE86CAE3;
+			remoteInfo = "Pods-SendTreePay";
+		};
 		E0568F6165E0C2BAC12765A7658DFC15 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E199BB7735CDD216213B664D41EFB3B5 /* RxRelay.xcodeproj */;
+			containerPortal = 67A100B252EBDF4361D142E7A2048A65 /* RxRelay.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 564FA919E05BFD512DA9163BAB640EEE;
 			remoteInfo = RxRelay;
 		};
+		E3518642370FB0E7318110A32FE992DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B92531C549B7DD573C21A1CF01884C5 /* RxSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F0179EE061353B7A322F596E97844774;
+			remoteInfo = RxSwift;
+		};
+		F2133B00D4089F33C2AD5FB5CA28BA4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D56A7F8EB9EA862B605BADC277369076 /* RxBlocking.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = C791DBA507D577C5DCDBE4909DA9C7C7;
+			remoteInfo = RxBlocking;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0E404C151171FBDB950F1A02D8AA7B29 /* Pods-SendTreePay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SendTreePay-acknowledgements.markdown"; sourceTree = "<group>"; };
-		254A067EE13B995FCE4E180BBF2A7B6C /* Pods-SendTreePayTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SendTreePayTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		09FD6D22F580A568239B519E1386E590 /* RxDataSources */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxDataSources; path = RxDataSources.xcodeproj; sourceTree = "<group>"; };
+		0AA93780465E31AA746A9C7B45AF5EBE /* Pods-SendTreePay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SendTreePay-dummy.m"; sourceTree = "<group>"; };
+		15195A2D969F8B8C7AA542B47B7C5C0E /* Pods-SendTreePay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SendTreePay.modulemap"; sourceTree = "<group>"; };
+		15730AA242D1282A5120949C0A3017C4 /* RxTest */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxTest; path = RxTest.xcodeproj; sourceTree = "<group>"; };
+		27B72FB9322DFF0C0588A07A96599C80 /* RxCocoa */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxCocoa; path = RxCocoa.xcodeproj; sourceTree = "<group>"; };
+		2981C4D44844FE7F6B2BE3B064308881 /* Pods-SendTreePay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SendTreePay-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		39BADC3C19263B863F42F5EF806CBAFA /* Pods-SendTreePayTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SendTreePayTests-umbrella.h"; sourceTree = "<group>"; };
-		3DD1E9955EE69E5D8ABCBC1FB14B9860 /* Pods-SendTreePay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SendTreePay-Info.plist"; sourceTree = "<group>"; };
-		3F725108BCEBC8E3E6846569ADB0DCC1 /* Pods-SendTreePay.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SendTreePay.modulemap"; sourceTree = "<group>"; };
-		4A2F461A2090E92F75631BD71B9539A3 /* Pods-SendTreePayTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SendTreePayTests-Info.plist"; sourceTree = "<group>"; };
-		4B7A3BA958F69C46F20EE38D70CCB18C /* Pods-SendTreePay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SendTreePay.release.xcconfig"; sourceTree = "<group>"; };
-		66D1C4C4303406E67070D42074011F9B /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
-		68CC4A926B430599D79B8E7535424448 /* Pods-SendTreePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SendTreePay.debug.xcconfig"; sourceTree = "<group>"; };
-		7EB27207F3702715353EF632445AEA55 /* Pods-SendTreePayTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SendTreePayTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3B92531C549B7DD573C21A1CF01884C5 /* RxSwift */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxSwift; path = RxSwift.xcodeproj; sourceTree = "<group>"; };
+		4252DB2E56FC7DF2B822D38CB6B908DA /* Differentiator */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Differentiator; path = Differentiator.xcodeproj; sourceTree = "<group>"; };
+		432FF694C77862B1B3F132E1E0FA1EBF /* Pods-SendTreePay-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SendTreePay-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4800433AE82CA2868D417FC722EFCD67 /* Pods-SendTreePayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SendTreePayTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5185FB37EB6AE28ABE10DF8C3E5A287F /* Pods-SendTreePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SendTreePay.debug.xcconfig"; sourceTree = "<group>"; };
+		5EEB1270492382AAFEE8D193074B4325 /* Pods-SendTreePay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SendTreePay-frameworks.sh"; sourceTree = "<group>"; };
+		67A100B252EBDF4361D142E7A2048A65 /* RxRelay */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxRelay; path = RxRelay.xcodeproj; sourceTree = "<group>"; };
+		6AE95DB10C16A4FA6386ED5B3D30B3A1 /* Pods-SendTreePayTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SendTreePayTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E004356A03286005A92F577123639B3 /* SnapKit */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SnapKit; path = SnapKit.xcodeproj; sourceTree = "<group>"; };
+		809D87A525CFCD50B8D5836C6699E9C0 /* Pods-SendTreePayTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SendTreePayTests-frameworks.sh"; sourceTree = "<group>"; };
+		84EE1D676BDCFAE800BF1CE3215C5311 /* Pods-SendTreePay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SendTreePay.release.xcconfig"; sourceTree = "<group>"; };
+		8D9089B9114818F7FB80A762E58396C2 /* Pods-SendTreePayTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SendTreePayTests-umbrella.h"; sourceTree = "<group>"; };
+		9500A590BB2D8E299C631376FF947200 /* Pods-SendTreePayTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SendTreePayTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E1C82AB827E69D624A372C741767AB6 /* RxSwiftExt */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxSwiftExt; path = RxSwiftExt.xcodeproj; sourceTree = "<group>"; };
 		9EE303A36C42534BA0C17CA42FAD31F2 /* Pods_SendTreePay.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SendTreePay.framework; path = "Pods-SendTreePay.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A79316A0D3A301954AF81CE34F7CA490 /* Pods-SendTreePay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SendTreePay-dummy.m"; sourceTree = "<group>"; };
-		AE7DD383957DF2C98DDB17643A721889 /* Pods-SendTreePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SendTreePayTests.release.xcconfig"; sourceTree = "<group>"; };
-		AF0440DE39D26B337AD0790539ED7753 /* Pods-SendTreePay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SendTreePay-acknowledgements.plist"; sourceTree = "<group>"; };
-		AF89ACFF6B0AA0AA837ED43D29A3BBE5 /* Pods-SendTreePayTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SendTreePayTests.debug.xcconfig"; sourceTree = "<group>"; };
-		B331548E7C895BD70A9DC206146FCC88 /* Pods-SendTreePay-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SendTreePay-frameworks.sh"; sourceTree = "<group>"; };
-		BA56E4C8B691A54698A403802F588E5E /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
-		BBDDD1522EC0ED794F9BA77B55601F6A /* RxDataSources */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxDataSources; path = RxDataSources.xcodeproj; sourceTree = "<group>"; };
+		B034877992CFCBE20EDCAF34337DC13D /* Alamofire */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire; path = Alamofire.xcodeproj; sourceTree = "<group>"; };
+		BDD0FD69328A9522534AAA69F59AF96B /* Pods-SendTreePayTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SendTreePayTests-Info.plist"; sourceTree = "<group>"; };
+		C2BA977D33B8F79370C7122DA07B3341 /* Pods-SendTreePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SendTreePayTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8349789F7A2BD5E59FE52303259FB7C /* Pods_SendTreePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SendTreePayTests.framework; path = "Pods-SendTreePayTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D7296DAEACA43CCCA083D6E97450108A /* Pods-SendTreePayTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SendTreePayTests-dummy.m"; sourceTree = "<group>"; };
-		DCD792F59DE6A6542A7C62C766D1A15A /* RxCocoa */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxCocoa; path = RxCocoa.xcodeproj; sourceTree = "<group>"; };
-		DE3A9E53AC657A7498C016706D0F4F78 /* Moya */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Moya; path = Moya.xcodeproj; sourceTree = "<group>"; };
-		E199BB7735CDD216213B664D41EFB3B5 /* RxRelay */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxRelay; path = RxRelay.xcodeproj; sourceTree = "<group>"; };
-		E1D6D1965B878A23F243605485F39874 /* Pods-SendTreePay-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SendTreePay-umbrella.h"; sourceTree = "<group>"; };
-		E33FA793842530F16B168BABA70B2067 /* Differentiator */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Differentiator; path = Differentiator.xcodeproj; sourceTree = "<group>"; };
-		EEFFBE8FE0C9BB250051BCC5801269C6 /* RxSwift */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxSwift; path = RxSwift.xcodeproj; sourceTree = "<group>"; };
-		EF52C18B1B523A74E499B84974221EFE /* Pods-SendTreePayTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SendTreePayTests.modulemap"; sourceTree = "<group>"; };
+		D56A7F8EB9EA862B605BADC277369076 /* RxBlocking */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxBlocking; path = RxBlocking.xcodeproj; sourceTree = "<group>"; };
+		D9E44357AA66A53C3B30698E440D192A /* Pods-SendTreePay-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SendTreePay-Info.plist"; sourceTree = "<group>"; };
+		DB103CCAE06607F6A4E47549829A1070 /* Pods-SendTreePayTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SendTreePayTests.modulemap"; sourceTree = "<group>"; };
+		DB2D06937BC14B08D9FF0C53520DC0BA /* Moya */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Moya; path = Moya.xcodeproj; sourceTree = "<group>"; };
+		E1FC32F9BE5776F0AB7A3868DE769B30 /* Pods-SendTreePay-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SendTreePay-acknowledgements.plist"; sourceTree = "<group>"; };
+		E726645F1903EB096FF39127FA209409 /* RxSwiftExt */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxSwiftExt; path = RxSwiftExt.xcodeproj; sourceTree = "<group>"; };
+		F85CAD3399CADC1CB4A0268232C725C3 /* Pods-SendTreePayTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SendTreePayTests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		72F5EF19DDA2563C2F7DEED08369959E /* Frameworks */ = {
+		501B380577963E462C07D2AEC6B0D59F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17A1B4CA7E3D5FE93DB87BA4DAE56496 /* Foundation.framework in Frameworks */,
+				CF9E0BF7C30E8B687D99770F15E3C866 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,13 +165,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		396245F82EF4E9720E8B791B63D19843 /* Targets Support Files */ = {
+		577F502129222CBBA21A433A4B10658E /* Pods-SendTreePayTests */ = {
 			isa = PBXGroup;
 			children = (
-				BA7AC6C7423A82318F682D3C0F24A291 /* Pods-SendTreePay */,
-				781EA305ECFAECBCE28555E64995F25E /* Pods-SendTreePayTests */,
+				DB103CCAE06607F6A4E47549829A1070 /* Pods-SendTreePayTests.modulemap */,
+				9500A590BB2D8E299C631376FF947200 /* Pods-SendTreePayTests-acknowledgements.markdown */,
+				6AE95DB10C16A4FA6386ED5B3D30B3A1 /* Pods-SendTreePayTests-acknowledgements.plist */,
+				F85CAD3399CADC1CB4A0268232C725C3 /* Pods-SendTreePayTests-dummy.m */,
+				809D87A525CFCD50B8D5836C6699E9C0 /* Pods-SendTreePayTests-frameworks.sh */,
+				BDD0FD69328A9522534AAA69F59AF96B /* Pods-SendTreePayTests-Info.plist */,
+				8D9089B9114818F7FB80A762E58396C2 /* Pods-SendTreePayTests-umbrella.h */,
+				4800433AE82CA2868D417FC722EFCD67 /* Pods-SendTreePayTests.debug.xcconfig */,
+				C2BA977D33B8F79370C7122DA07B3341 /* Pods-SendTreePayTests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-SendTreePayTests";
+			path = "Target Support Files/Pods-SendTreePayTests";
 			sourceTree = "<group>";
 		};
 		72B6BF4AA73E83FB0FD7088B9C804CFA /* Products */ = {
@@ -159,53 +191,48 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		781EA305ECFAECBCE28555E64995F25E /* Pods-SendTreePayTests */ = {
+		8020049D5AB7BEF81F4D35D4F7112A75 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EF52C18B1B523A74E499B84974221EFE /* Pods-SendTreePayTests.modulemap */,
-				7EB27207F3702715353EF632445AEA55 /* Pods-SendTreePayTests-acknowledgements.markdown */,
-				254A067EE13B995FCE4E180BBF2A7B6C /* Pods-SendTreePayTests-acknowledgements.plist */,
-				D7296DAEACA43CCCA083D6E97450108A /* Pods-SendTreePayTests-dummy.m */,
-				4A2F461A2090E92F75631BD71B9539A3 /* Pods-SendTreePayTests-Info.plist */,
-				39BADC3C19263B863F42F5EF806CBAFA /* Pods-SendTreePayTests-umbrella.h */,
-				AF89ACFF6B0AA0AA837ED43D29A3BBE5 /* Pods-SendTreePayTests.debug.xcconfig */,
-				AE7DD383957DF2C98DDB17643A721889 /* Pods-SendTreePayTests.release.xcconfig */,
+				AEFB224600F091C2450AB55D555E3CF3 /* Pods-SendTreePay */,
+				577F502129222CBBA21A433A4B10658E /* Pods-SendTreePayTests */,
 			);
-			name = "Pods-SendTreePayTests";
-			path = "Target Support Files/Pods-SendTreePayTests";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		BA7AC6C7423A82318F682D3C0F24A291 /* Pods-SendTreePay */ = {
+		88E879A6E2EFA7643EFC52F9619FD82F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3F725108BCEBC8E3E6846569ADB0DCC1 /* Pods-SendTreePay.modulemap */,
-				0E404C151171FBDB950F1A02D8AA7B29 /* Pods-SendTreePay-acknowledgements.markdown */,
-				AF0440DE39D26B337AD0790539ED7753 /* Pods-SendTreePay-acknowledgements.plist */,
-				A79316A0D3A301954AF81CE34F7CA490 /* Pods-SendTreePay-dummy.m */,
-				B331548E7C895BD70A9DC206146FCC88 /* Pods-SendTreePay-frameworks.sh */,
-				3DD1E9955EE69E5D8ABCBC1FB14B9860 /* Pods-SendTreePay-Info.plist */,
-				E1D6D1965B878A23F243605485F39874 /* Pods-SendTreePay-umbrella.h */,
-				68CC4A926B430599D79B8E7535424448 /* Pods-SendTreePay.debug.xcconfig */,
-				4B7A3BA958F69C46F20EE38D70CCB18C /* Pods-SendTreePay.release.xcconfig */,
+				B034877992CFCBE20EDCAF34337DC13D /* Alamofire */,
+				4252DB2E56FC7DF2B822D38CB6B908DA /* Differentiator */,
+				DB2D06937BC14B08D9FF0C53520DC0BA /* Moya */,
+				D56A7F8EB9EA862B605BADC277369076 /* RxBlocking */,
+				27B72FB9322DFF0C0588A07A96599C80 /* RxCocoa */,
+				09FD6D22F580A568239B519E1386E590 /* RxDataSources */,
+				67A100B252EBDF4361D142E7A2048A65 /* RxRelay */,
+				3B92531C549B7DD573C21A1CF01884C5 /* RxSwift */,
+				E726645F1903EB096FF39127FA209409 /* RxSwiftExt */,
+				15730AA242D1282A5120949C0A3017C4 /* RxTest */,
+				6E004356A03286005A92F577123639B3 /* SnapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AEFB224600F091C2450AB55D555E3CF3 /* Pods-SendTreePay */ = {
+			isa = PBXGroup;
+			children = (
+				15195A2D969F8B8C7AA542B47B7C5C0E /* Pods-SendTreePay.modulemap */,
+				432FF694C77862B1B3F132E1E0FA1EBF /* Pods-SendTreePay-acknowledgements.markdown */,
+				E1FC32F9BE5776F0AB7A3868DE769B30 /* Pods-SendTreePay-acknowledgements.plist */,
+				0AA93780465E31AA746A9C7B45AF5EBE /* Pods-SendTreePay-dummy.m */,
+				5EEB1270492382AAFEE8D193074B4325 /* Pods-SendTreePay-frameworks.sh */,
+				D9E44357AA66A53C3B30698E440D192A /* Pods-SendTreePay-Info.plist */,
+				2981C4D44844FE7F6B2BE3B064308881 /* Pods-SendTreePay-umbrella.h */,
+				5185FB37EB6AE28ABE10DF8C3E5A287F /* Pods-SendTreePay.debug.xcconfig */,
+				84EE1D676BDCFAE800BF1CE3215C5311 /* Pods-SendTreePay.release.xcconfig */,
 			);
 			name = "Pods-SendTreePay";
 			path = "Target Support Files/Pods-SendTreePay";
-			sourceTree = "<group>";
-		};
-		BC72059C742B7C61D34CE66BF0B3424B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				BA56E4C8B691A54698A403802F588E5E /* Alamofire */,
-				E33FA793842530F16B168BABA70B2067 /* Differentiator */,
-				DE3A9E53AC657A7498C016706D0F4F78 /* Moya */,
-				DCD792F59DE6A6542A7C62C766D1A15A /* RxCocoa */,
-				BBDDD1522EC0ED794F9BA77B55601F6A /* RxDataSources */,
-				E199BB7735CDD216213B664D41EFB3B5 /* RxRelay */,
-				EEFFBE8FE0C9BB250051BCC5801269C6 /* RxSwift */,
-				9E1C82AB827E69D624A372C741767AB6 /* RxSwiftExt */,
-				66D1C4C4303406E67070D42074011F9B /* SnapKit */,
-			);
-			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -221,9 +248,9 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BC72059C742B7C61D34CE66BF0B3424B /* Pods */,
+				88E879A6E2EFA7643EFC52F9619FD82F /* Pods */,
 				72B6BF4AA73E83FB0FD7088B9C804CFA /* Products */,
-				396245F82EF4E9720E8B791B63D19843 /* Targets Support Files */,
+				8020049D5AB7BEF81F4D35D4F7112A75 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -246,11 +273,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		957C7644FB809319190C587956413CF7 /* Headers */ = {
+		E099F1C5E4478DB2C8CCDBC8C9B741D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF88A101D7E8900E1C1A0A54D0F012CA /* Pods-SendTreePayTests-umbrella.h in Headers */,
+				6ABEC78123B4974A4F201BE9A197BBD1 /* Pods-SendTreePayTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,17 +286,20 @@
 /* Begin PBXNativeTarget section */
 		59F008C8CD0DA8FDC6EB0F31D8BD025E /* Pods-SendTreePayTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3443FA148F8398FE2D108EB6DEA7C778 /* Build configuration list for PBXNativeTarget "Pods-SendTreePayTests" */;
+			buildConfigurationList = B9BA10C985E56375230A69B43329F324 /* Build configuration list for PBXNativeTarget "Pods-SendTreePayTests" */;
 			buildPhases = (
-				957C7644FB809319190C587956413CF7 /* Headers */,
-				D47E107BD556D6206ECF27AFC7F575B1 /* Sources */,
-				72F5EF19DDA2563C2F7DEED08369959E /* Frameworks */,
-				1936391C9232364CC6685A48AEDDA5A7 /* Resources */,
+				E099F1C5E4478DB2C8CCDBC8C9B741D5 /* Headers */,
+				1E344D5EE005C85AE52B30A4D1DA16A0 /* Sources */,
+				501B380577963E462C07D2AEC6B0D59F /* Frameworks */,
+				80BE4813AC77ED62206C4A03694136F8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				032EE746FC2FA93F7846880EDAEA3E95 /* PBXTargetDependency */,
+				08E3DB0591F761CB773692AD445432E8 /* PBXTargetDependency */,
+				29B07496BFF92332EBAA4FF6C67D1D66 /* PBXTargetDependency */,
+				0298BA2BC2E91CFFF14E7D45C19E8D20 /* PBXTargetDependency */,
+				F141C16864D8C81068F2418A179A4FBB /* PBXTargetDependency */,
 			);
 			name = "Pods-SendTreePayTests";
 			productName = "Pods-SendTreePayTests";
@@ -325,31 +355,37 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProjectRef = BA56E4C8B691A54698A403802F588E5E /* Alamofire */;
+					ProjectRef = B034877992CFCBE20EDCAF34337DC13D /* Alamofire */;
 				},
 				{
-					ProjectRef = E33FA793842530F16B168BABA70B2067 /* Differentiator */;
+					ProjectRef = 4252DB2E56FC7DF2B822D38CB6B908DA /* Differentiator */;
 				},
 				{
-					ProjectRef = DE3A9E53AC657A7498C016706D0F4F78 /* Moya */;
+					ProjectRef = DB2D06937BC14B08D9FF0C53520DC0BA /* Moya */;
 				},
 				{
-					ProjectRef = DCD792F59DE6A6542A7C62C766D1A15A /* RxCocoa */;
+					ProjectRef = 27B72FB9322DFF0C0588A07A96599C80 /* RxCocoa */;
 				},
 				{
-					ProjectRef = BBDDD1522EC0ED794F9BA77B55601F6A /* RxDataSources */;
+					ProjectRef = 09FD6D22F580A568239B519E1386E590 /* RxDataSources */;
 				},
 				{
-					ProjectRef = E199BB7735CDD216213B664D41EFB3B5 /* RxRelay */;
+					ProjectRef = 67A100B252EBDF4361D142E7A2048A65 /* RxRelay */;
 				},
 				{
-					ProjectRef = EEFFBE8FE0C9BB250051BCC5801269C6 /* RxSwift */;
+					ProjectRef = 3B92531C549B7DD573C21A1CF01884C5 /* RxSwift */;
 				},
 				{
-					ProjectRef = 9E1C82AB827E69D624A372C741767AB6 /* RxSwiftExt */;
+					ProjectRef = E726645F1903EB096FF39127FA209409 /* RxSwiftExt */;
 				},
 				{
-					ProjectRef = 66D1C4C4303406E67070D42074011F9B /* SnapKit */;
+					ProjectRef = 6E004356A03286005A92F577123639B3 /* SnapKit */;
+				},
+				{
+					ProjectRef = D56A7F8EB9EA862B605BADC277369076 /* RxBlocking */;
+				},
+				{
+					ProjectRef = 15730AA242D1282A5120949C0A3017C4 /* RxTest */;
 				},
 			);
 			projectRoot = "";
@@ -361,7 +397,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1936391C9232364CC6685A48AEDDA5A7 /* Resources */ = {
+		80BE4813AC77ED62206C4A03694136F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -378,6 +414,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1E344D5EE005C85AE52B30A4D1DA16A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145EC43AEA1D1EE4FA08691D803CBB1D /* Pods-SendTreePayTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A984EAC864DB68D6DCBBAD998F524C5D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -386,27 +430,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D47E107BD556D6206ECF27AFC7F575B1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				849260758955C6442C08907D1A084869 /* Pods-SendTreePayTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		032EE746FC2FA93F7846880EDAEA3E95 /* PBXTargetDependency */ = {
+		0298BA2BC2E91CFFF14E7D45C19E8D20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-SendTreePay";
-			target = D792339DDD1D14332FCD7950EE86CAE3 /* Pods-SendTreePay */;
-			targetProxy = 59F50E332092349DA4917BFBB1F665A7 /* PBXContainerItemProxy */;
+			name = RxSwift;
+			targetProxy = E3518642370FB0E7318110A32FE992DC /* PBXContainerItemProxy */;
 		};
 		06E97F4B71FAA1ADE119BBDDEEA2C094 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SnapKit;
 			targetProxy = 8E31EE7B538E6A85FB2D661E1ABAD1A8 /* PBXContainerItemProxy */;
+		};
+		08E3DB0591F761CB773692AD445432E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-SendTreePay";
+			target = D792339DDD1D14332FCD7950EE86CAE3 /* Pods-SendTreePay */;
+			targetProxy = D84DED1D8FC90B0FA80BF35D2D3915A2 /* PBXContainerItemProxy */;
+		};
+		29B07496BFF92332EBAA4FF6C67D1D66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxBlocking;
+			targetProxy = F2133B00D4089F33C2AD5FB5CA28BA4D /* PBXContainerItemProxy */;
 		};
 		31BE8500F1456C071894C94F6129E71A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -448,12 +494,17 @@
 			name = RxSwiftExt;
 			targetProxy = D4A7EB53F31EF3654A566B45223DF25A /* PBXContainerItemProxy */;
 		};
+		F141C16864D8C81068F2418A179A4FBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxTest;
+			targetProxy = B1382931E5FCC1FA53D8CB64795A5658 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0DCD3ADFD7069707735FF28712676F39 /* Debug */ = {
+		0AB9881453637FD8D49AE132ACC582D5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF89ACFF6B0AA0AA837ED43D29A3BBE5 /* Pods-SendTreePayTests.debug.xcconfig */;
+			baseConfigurationReference = 4800433AE82CA2868D417FC722EFCD67 /* Pods-SendTreePayTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -551,7 +602,7 @@
 		};
 		90DD1142EA4CE07EDF856B0A0D9F93CD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 68CC4A926B430599D79B8E7535424448 /* Pods-SendTreePay.debug.xcconfig */;
+			baseConfigurationReference = 5185FB37EB6AE28ABE10DF8C3E5A287F /* Pods-SendTreePay.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -589,7 +640,7 @@
 		};
 		A86807C5A03CFCB7431DAD98DD46A4D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4B7A3BA958F69C46F20EE38D70CCB18C /* Pods-SendTreePay.release.xcconfig */;
+			baseConfigurationReference = 84EE1D676BDCFAE800BF1CE3215C5311 /* Pods-SendTreePay.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -626,9 +677,9 @@
 			};
 			name = Release;
 		};
-		B649E9BCB28F354C8EA29A88B41D70E1 /* Release */ = {
+		DCC88F6B1940D8C80D6BD28F3C86D241 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE7DD383957DF2C98DDB17643A721889 /* Pods-SendTreePayTests.release.xcconfig */;
+			baseConfigurationReference = C2BA977D33B8F79370C7122DA07B3341 /* Pods-SendTreePayTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -741,20 +792,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3443FA148F8398FE2D108EB6DEA7C778 /* Build configuration list for PBXNativeTarget "Pods-SendTreePayTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				0DCD3ADFD7069707735FF28712676F39 /* Debug */,
-				B649E9BCB28F354C8EA29A88B41D70E1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
 				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9BA10C985E56375230A69B43329F324 /* Build configuration list for PBXNativeTarget "Pods-SendTreePayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AB9881453637FD8D49AE132ACC582D5 /* Debug */,
+				DCC88F6B1940D8C80D6BD28F3C86D241 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

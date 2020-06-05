@@ -36,6 +36,8 @@ class RXCountryController: UIViewController {
     return button
   }()
 
+  // MARK: - Life Cycle
+
   override func viewDidLoad() {
     super.viewDidLoad()
     title = "Mask List"

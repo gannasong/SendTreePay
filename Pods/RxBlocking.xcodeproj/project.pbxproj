@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0018D66186279BB0C70729C2A93851AD /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDDA3FD23557FCD3E64FC6D05C42721 /* Queue.swift */; };
+		0583E6EB4FD004A45401D950A743318B /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3F5D0243E7AD8DACF5CEAD3C52F73B /* Bag.swift */; };
+		0AD5D4D021F8252223317B408F44BAB4 /* PriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0962D307E230F279B75BDAC966FEEE3 /* PriorityQueue.swift */; };
+		4418688D34A68D23B1BF6E3086799B65 /* RxBlocking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5FCA4BD0634002309552EA575463D125 /* RxBlocking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E72EA9145077646C0F4E22F753E7E7C /* BlockingObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73598BA2F908E121465B1173162B20E6 /* BlockingObservable.swift */; };
+		7C11EDD73D5431B7892B96FEC1807E9D /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = E69CC6738AD217C0498EFB3C7CC92FE5 /* Resources.swift */; };
+		951118A49769A5A2C9939E747DDA1CAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7686CD99E8DF510ABC01205E23F957A9 /* Foundation.framework */; };
+		95293F1AF69A9B81EEAB5E00E28A8117 /* RxBlocking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4E5A55D3105FC0C3890F9B2843A362C /* RxBlocking-dummy.m */; };
+		98927EF373C2E4E78BA9FE7AE739842D /* DispatchQueue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEE22B7D77AFB4B68E3A6F17EC1898E /* DispatchQueue+Extensions.swift */; };
+		9B67EA2AC3ED76843CB90D99DE33D107 /* Platform.Darwin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5A632DBF4299C8836D125A4133F693 /* Platform.Darwin.swift */; };
+		BE1ECB73DA044E79FCF538BF1BBFE95F /* InfiniteSequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97FDF5908BA6A9CEEA998B2B5F535C7C /* InfiniteSequence.swift */; };
+		D731D55F1F8533E6684C0A536EF641D6 /* BlockingObservable+Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FFB499683169B5161EECA36A252A0B4 /* BlockingObservable+Operators.swift */; };
+		D7A4B061653B778972F40D764FADFAA8 /* RecursiveLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFA74D2067F791641F020B883934222 /* RecursiveLock.swift */; };
+		DF19C79DC60DD1E632AB848002C40A20 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472852EF933AA4B8DD08736CBE5B6594 /* RxSwift.framework */; };
+		E930CF5021832D21795266DEF7E03185 /* Platform.Linux.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D560AA581BC9751BA5910C0DD21BC3 /* Platform.Linux.swift */; };
+		E9D413A537C3C4D8A29CB65C543B6430 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A85073379F091F46C0051102387F91E /* AtomicInt.swift */; };
+		F4B7A52C708ECFEB47800C77A1D9E0C7 /* RunLoopLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C5CBCA512A70C20BB2C71DEB889A5FB /* RunLoopLock.swift */; };
+		F80D1D2E32BC601358C758BAC43B2199 /* ObservableConvertibleType+Blocking.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFFF28FABC2BED54ED7BEDD6CC4877B5 /* ObservableConvertibleType+Blocking.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		513EE37948924F822F436DF50A65B345 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39EB15E384143AFAB35D7F00778E0C43 /* RxSwift.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F0179EE061353B7A322F596E97844774;
+			remoteInfo = RxSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BEE22B7D77AFB4B68E3A6F17EC1898E /* DispatchQueue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Extensions.swift"; path = "Platform/DispatchQueue+Extensions.swift"; sourceTree = "<group>"; };
+		10E37D24561D030D582EF598F6E6E0C7 /* RxBlocking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RxBlocking.framework; path = RxBlocking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23D560AA581BC9751BA5910C0DD21BC3 /* Platform.Linux.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Linux.swift; path = Platform/Platform.Linux.swift; sourceTree = "<group>"; };
+		2C3F5D0243E7AD8DACF5CEAD3C52F73B /* Bag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Bag.swift; path = Platform/DataStructures/Bag.swift; sourceTree = "<group>"; };
+		39EB15E384143AFAB35D7F00778E0C43 /* RxSwift */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RxSwift; path = RxSwift.xcodeproj; sourceTree = "<group>"; };
+		3DDDA3FD23557FCD3E64FC6D05C42721 /* Queue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Queue.swift; path = Platform/DataStructures/Queue.swift; sourceTree = "<group>"; };
+		472852EF933AA4B8DD08736CBE5B6594 /* RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5778A8EE791897F59F199CCFAD6BE587 /* RxBlocking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxBlocking-prefix.pch"; sourceTree = "<group>"; };
+		5C5CBCA512A70C20BB2C71DEB889A5FB /* RunLoopLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RunLoopLock.swift; path = RxBlocking/RunLoopLock.swift; sourceTree = "<group>"; };
+		5FCA4BD0634002309552EA575463D125 /* RxBlocking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RxBlocking-umbrella.h"; sourceTree = "<group>"; };
+		73598BA2F908E121465B1173162B20E6 /* BlockingObservable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BlockingObservable.swift; path = RxBlocking/BlockingObservable.swift; sourceTree = "<group>"; };
+		7686CD99E8DF510ABC01205E23F957A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8FFB499683169B5161EECA36A252A0B4 /* BlockingObservable+Operators.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "BlockingObservable+Operators.swift"; path = "RxBlocking/BlockingObservable+Operators.swift"; sourceTree = "<group>"; };
+		97FDF5908BA6A9CEEA998B2B5F535C7C /* InfiniteSequence.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = InfiniteSequence.swift; path = Platform/DataStructures/InfiniteSequence.swift; sourceTree = "<group>"; };
+		9A85073379F091F46C0051102387F91E /* AtomicInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomicInt.swift; path = Platform/AtomicInt.swift; sourceTree = "<group>"; };
+		9B5A632DBF4299C8836D125A4133F693 /* Platform.Darwin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Platform.Darwin.swift; path = Platform/Platform.Darwin.swift; sourceTree = "<group>"; };
+		A4E5A55D3105FC0C3890F9B2843A362C /* RxBlocking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RxBlocking-dummy.m"; sourceTree = "<group>"; };
+		B0962D307E230F279B75BDAC966FEEE3 /* PriorityQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PriorityQueue.swift; path = Platform/DataStructures/PriorityQueue.swift; sourceTree = "<group>"; };
+		BFFA74D2067F791641F020B883934222 /* RecursiveLock.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RecursiveLock.swift; path = Platform/RecursiveLock.swift; sourceTree = "<group>"; };
+		D61EDDEABE7B85FB2DDC4772C471B961 /* RxBlocking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RxBlocking.xcconfig; sourceTree = "<group>"; };
+		DFFF28FABC2BED54ED7BEDD6CC4877B5 /* ObservableConvertibleType+Blocking.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ObservableConvertibleType+Blocking.swift"; path = "RxBlocking/ObservableConvertibleType+Blocking.swift"; sourceTree = "<group>"; };
+		E278043F047680DFFACCC7A9D468CCE7 /* RxBlocking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RxBlocking-Info.plist"; sourceTree = "<group>"; };
+		E69CC6738AD217C0498EFB3C7CC92FE5 /* Resources.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Resources.swift; path = RxBlocking/Resources.swift; sourceTree = "<group>"; };
+		FA012D953656F6F5293B8DE20553EEB9 /* RxBlocking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RxBlocking.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5765469BF704F89B533F7FD17389B285 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				951118A49769A5A2C9939E747DDA1CAF /* Foundation.framework in Frameworks */,
+				DF19C79DC60DD1E632AB848002C40A20 /* RxSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206015D7DBF7495CF9361F9C5E08E636 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10E37D24561D030D582EF598F6E6E0C7 /* RxBlocking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29A38AE15C8D37E60330BE7489EB7C5E = {
+			isa = PBXGroup;
+			children = (
+				6E70BA625A4C6D55B670E6AE4C58F3AF /* Dependencies */,
+				CA2E1AFAEC1015064999EAF3D3397DD8 /* Frameworks */,
+				206015D7DBF7495CF9361F9C5E08E636 /* Products */,
+				6854FAB105C90D872157765B6D3BD8DE /* RxBlocking */,
+			);
+			sourceTree = "<group>";
+		};
+		6854FAB105C90D872157765B6D3BD8DE /* RxBlocking */ = {
+			isa = PBXGroup;
+			children = (
+				9A85073379F091F46C0051102387F91E /* AtomicInt.swift */,
+				2C3F5D0243E7AD8DACF5CEAD3C52F73B /* Bag.swift */,
+				73598BA2F908E121465B1173162B20E6 /* BlockingObservable.swift */,
+				8FFB499683169B5161EECA36A252A0B4 /* BlockingObservable+Operators.swift */,
+				0BEE22B7D77AFB4B68E3A6F17EC1898E /* DispatchQueue+Extensions.swift */,
+				97FDF5908BA6A9CEEA998B2B5F535C7C /* InfiniteSequence.swift */,
+				DFFF28FABC2BED54ED7BEDD6CC4877B5 /* ObservableConvertibleType+Blocking.swift */,
+				9B5A632DBF4299C8836D125A4133F693 /* Platform.Darwin.swift */,
+				23D560AA581BC9751BA5910C0DD21BC3 /* Platform.Linux.swift */,
+				B0962D307E230F279B75BDAC966FEEE3 /* PriorityQueue.swift */,
+				3DDDA3FD23557FCD3E64FC6D05C42721 /* Queue.swift */,
+				BFFA74D2067F791641F020B883934222 /* RecursiveLock.swift */,
+				E69CC6738AD217C0498EFB3C7CC92FE5 /* Resources.swift */,
+				5C5CBCA512A70C20BB2C71DEB889A5FB /* RunLoopLock.swift */,
+				A8CB400B03C2C4CA1C13B479E7017EA8 /* Support Files */,
+			);
+			name = RxBlocking;
+			path = RxBlocking;
+			sourceTree = "<group>";
+		};
+		6E70BA625A4C6D55B670E6AE4C58F3AF /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				39EB15E384143AFAB35D7F00778E0C43 /* RxSwift */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		8B39C2CA7642D5DE363DC1CA144A6878 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7686CD99E8DF510ABC01205E23F957A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A8CB400B03C2C4CA1C13B479E7017EA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA012D953656F6F5293B8DE20553EEB9 /* RxBlocking.modulemap */,
+				D61EDDEABE7B85FB2DDC4772C471B961 /* RxBlocking.xcconfig */,
+				A4E5A55D3105FC0C3890F9B2843A362C /* RxBlocking-dummy.m */,
+				E278043F047680DFFACCC7A9D468CCE7 /* RxBlocking-Info.plist */,
+				5778A8EE791897F59F199CCFAD6BE587 /* RxBlocking-prefix.pch */,
+				5FCA4BD0634002309552EA575463D125 /* RxBlocking-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RxBlocking";
+			sourceTree = "<group>";
+		};
+		CA2E1AFAEC1015064999EAF3D3397DD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				472852EF933AA4B8DD08736CBE5B6594 /* RxSwift.framework */,
+				8B39C2CA7642D5DE363DC1CA144A6878 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AE141907874032700FE25BA17187A7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4418688D34A68D23B1BF6E3086799B65 /* RxBlocking-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		C791DBA507D577C5DCDBE4909DA9C7C7 /* RxBlocking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB10E7AF63F15AB772471B7DA231A0B9 /* Build configuration list for PBXNativeTarget "RxBlocking" */;
+			buildPhases = (
+				1AE141907874032700FE25BA17187A7A /* Headers */,
+				68990D5177D1566624FEB9993E68E5BA /* Sources */,
+				5765469BF704F89B533F7FD17389B285 /* Frameworks */,
+				B36D4D1FA8AFD84DA302F2944C62B7A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D181EB0D1692E071B469942BF1FEABAB /* PBXTargetDependency */,
+			);
+			name = RxBlocking;
+			productName = RxBlocking;
+			productReference = 10E37D24561D030D582EF598F6E6E0C7 /* RxBlocking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40E692F192B73FBE7F2FC2CAA07ABFC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 5DB721B394D04DE68363B715D7A5594C /* Build configuration list for PBXProject "RxBlocking" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 29A38AE15C8D37E60330BE7489EB7C5E;
+			productRefGroup = 206015D7DBF7495CF9361F9C5E08E636 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProjectRef = 39EB15E384143AFAB35D7F00778E0C43 /* RxSwift */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				C791DBA507D577C5DCDBE4909DA9C7C7 /* RxBlocking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36D4D1FA8AFD84DA302F2944C62B7A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68990D5177D1566624FEB9993E68E5BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9D413A537C3C4D8A29CB65C543B6430 /* AtomicInt.swift in Sources */,
+				0583E6EB4FD004A45401D950A743318B /* Bag.swift in Sources */,
+				D731D55F1F8533E6684C0A536EF641D6 /* BlockingObservable+Operators.swift in Sources */,
+				6E72EA9145077646C0F4E22F753E7E7C /* BlockingObservable.swift in Sources */,
+				98927EF373C2E4E78BA9FE7AE739842D /* DispatchQueue+Extensions.swift in Sources */,
+				BE1ECB73DA044E79FCF538BF1BBFE95F /* InfiniteSequence.swift in Sources */,
+				F80D1D2E32BC601358C758BAC43B2199 /* ObservableConvertibleType+Blocking.swift in Sources */,
+				9B67EA2AC3ED76843CB90D99DE33D107 /* Platform.Darwin.swift in Sources */,
+				E930CF5021832D21795266DEF7E03185 /* Platform.Linux.swift in Sources */,
+				0AD5D4D021F8252223317B408F44BAB4 /* PriorityQueue.swift in Sources */,
+				0018D66186279BB0C70729C2A93851AD /* Queue.swift in Sources */,
+				D7A4B061653B778972F40D764FADFAA8 /* RecursiveLock.swift in Sources */,
+				7C11EDD73D5431B7892B96FEC1807E9D /* Resources.swift in Sources */,
+				F4B7A52C708ECFEB47800C77A1D9E0C7 /* RunLoopLock.swift in Sources */,
+				95293F1AF69A9B81EEAB5E00E28A8117 /* RxBlocking-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D181EB0D1692E071B469942BF1FEABAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RxSwift;
+			targetProxy = 513EE37948924F822F436DF50A65B345 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		41FA4039FB2D4BF17619E63481BDD99C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61EDDEABE7B85FB2DDC4772C471B961 /* RxBlocking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxBlocking/RxBlocking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxBlocking/RxBlocking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxBlocking/RxBlocking.modulemap";
+				PRODUCT_MODULE_NAME = RxBlocking;
+				PRODUCT_NAME = RxBlocking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B005F217390166C8DE8DB30FC429A63E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D61EDDEABE7B85FB2DDC4772C471B961 /* RxBlocking.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RxBlocking/RxBlocking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RxBlocking/RxBlocking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RxBlocking/RxBlocking.modulemap";
+				PRODUCT_MODULE_NAME = RxBlocking;
+				PRODUCT_NAME = RxBlocking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D1EA81CAB79F9BC56156C96C3FFC0208 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F821463A41722D3E5FDE44042CDD3B6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5DB721B394D04DE68363B715D7A5594C /* Build configuration list for PBXProject "RxBlocking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1EA81CAB79F9BC56156C96C3FFC0208 /* Debug */,
+				F821463A41722D3E5FDE44042CDD3B6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB10E7AF63F15AB772471B7DA231A0B9 /* Build configuration list for PBXNativeTarget "RxBlocking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B005F217390166C8DE8DB30FC429A63E /* Debug */,
+				41FA4039FB2D4BF17619E63481BDD99C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40E692F192B73FBE7F2FC2CAA07ABFC8 /* Project object */;
+}

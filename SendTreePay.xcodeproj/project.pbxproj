@@ -23,6 +23,7 @@
 		493A56D42480EFC7005983E1 /* APIManager+Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56D32480EFC7005983E1 /* APIManager+Mask.swift */; };
 		493A56D92480F29D005983E1 /* Pharmacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493A56D82480F29D005983E1 /* Pharmacy.swift */; };
 		49472A3E24894492008AB823 /* CountySection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49472A3D24894492008AB823 /* CountySection.swift */; };
+		49611200248A9A0D0061DD4F /* Stubs.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 496111FF248A9A0D0061DD4F /* Stubs.bundle */; };
 		BFE1BD24B401ED52152CDC88 /* Pods_SendTreePay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E24DD785165BAFBE3F18D98 /* Pods_SendTreePay.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +58,7 @@
 		493A56D32480EFC7005983E1 /* APIManager+Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIManager+Mask.swift"; sourceTree = "<group>"; };
 		493A56D82480F29D005983E1 /* Pharmacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharmacy.swift; sourceTree = "<group>"; };
 		49472A3D24894492008AB823 /* CountySection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountySection.swift; sourceTree = "<group>"; };
+		496111FF248A9A0D0061DD4F /* Stubs.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Stubs.bundle; sourceTree = "<group>"; };
 		57C14EE0B546D3CE4DF57B04 /* Pods-SendTreePayTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePayTests.release.xcconfig"; path = "Target Support Files/Pods-SendTreePayTests/Pods-SendTreePayTests.release.xcconfig"; sourceTree = "<group>"; };
 		7DEEB37D560183658B33ECBB /* Pods-SendTreePay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SendTreePay.debug.xcconfig"; path = "Target Support Files/Pods-SendTreePay/Pods-SendTreePay.debug.xcconfig"; sourceTree = "<group>"; };
 		837C2715753E0AD6E32FF79A /* Pods_SendTreePayTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SendTreePayTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -134,6 +136,7 @@
 				493A568C2480DB9E005983E1 /* SceneDelegate.swift */,
 				493A56932480DBA1005983E1 /* Assets.xcassets */,
 				493A56952480DBA1005983E1 /* LaunchScreen.storyboard */,
+				496111FF248A9A0D0061DD4F /* Stubs.bundle */,
 			);
 			path = SendTreePay;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 				493A56992480DBA1005983E1 /* Sources */,
 				493A569A2480DBA1005983E1 /* Frameworks */,
 				493A569B2480DBA1005983E1 /* Resources */,
+				224B44658B877290B4EB3B94 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -311,6 +315,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49611200248A9A0D0061DD4F /* Stubs.bundle in Resources */,
 				493A56972480DBA1005983E1 /* LaunchScreen.storyboard in Resources */,
 				493A56942480DBA1005983E1 /* Assets.xcassets in Resources */,
 			);
@@ -326,6 +331,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		224B44658B877290B4EB3B94 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendTreePayTests/Pods-SendTreePayTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SendTreePayTests/Pods-SendTreePayTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SendTreePayTests/Pods-SendTreePayTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		2B4C89649EF8E66B8C98A8F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

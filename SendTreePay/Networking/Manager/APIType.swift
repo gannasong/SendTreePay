@@ -10,7 +10,6 @@ import Foundation
 import Moya
 
 public enum APIType {
-  case fetchDemoData
   case fetchMaskData
 }
 
@@ -18,29 +17,27 @@ extension APIType: TargetType {
 
   public var baseURL: URL {
     switch self {
-      case .fetchDemoData: return URL(string: "https://demo_data/")!
-      default: return URL(string: "https://raw.githubusercontent.com/")!
+      case .fetchMaskData:
+        return URL(string: "https://raw.githubusercontent.com/")!
     }
   }
 
   public var path: String {
     switch self {
-      case .fetchDemoData: return "demo_path"
-      case .fetchMaskData: return "kiang/pharmacies/master/json/points.json"
+      case .fetchMaskData:
+        return "kiang/pharmacies/master/json/points.json"
     }
   }
 
   public var method: Moya.Method {
     switch self {
-      case .fetchDemoData:
-        return .post
-      default:
+      case .fetchMaskData:
         return .get
     }
   }
 
   public var sampleData: Data {
-    return Data()
+    return stubedResponse("FeatureData")
   }
 
   var parameters: [String: Any]? {
@@ -52,9 +49,7 @@ extension APIType: TargetType {
     guard let parameters = parameters else { return .requestPlain }
 
     switch self {
-      case .fetchDemoData:
-        return .requestParameters(parameters: parameters, encoding: JSONEncoding.default)
-      default:
+      case .fetchMaskData:
         return .requestParameters(parameters: parameters, encoding: URLEncoding.default)
     }
   }
@@ -63,5 +58,14 @@ extension APIType: TargetType {
     return [
       "Content-Type": "application/json",
     ]
+  }
+
+  // MARK: - Private Methods
+
+  private func stubedResponse(_ filename: String) -> Data! {
+    let bundlePath = Bundle.main.path(forResource: "Stubs", ofType: "bundle")
+    let bundle = Bundle(path: bundlePath!)
+    let path = bundle?.path(forResource: filename, ofType: "json")
+    return (try? Data(contentsOf: URL(fileURLWithPath: path!)))
   }
 }

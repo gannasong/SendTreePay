@@ -17,7 +17,6 @@ final class CountryViewModel: ViewModelType {
   // MARK: - ViewModelType
 
   struct Input {
-//    let fetchContentTrigger: PublishSubject<Void>
     let fetchContentTrigger: Observable<Void>
   }
 
